@@ -34,6 +34,6 @@ console.log(url.includes('sundar'));
 
 console.log(gameName.split('-'))
 
-console.log(gameName.bold())
+//console.log(gameName.bold())
 
 
