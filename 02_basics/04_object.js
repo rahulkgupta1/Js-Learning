@@ -17,7 +17,7 @@ const regularUser = {
     }
 }
 
-console.log(regularUser.fullname.userfullname.firstname);
+//console.log(regularUser.fullname.userfullname.firstname);
 
 const obj1 = {1: "a", 2: "b"}
 const obj2 = {3: "a", 4: "b"}
@@ -46,10 +46,36 @@ const user = [
 
 
 user[1].email
-console.log(tinderUser);
+/*console.log(tinderUser);
 
 console.log(Object.keys(tinderUser));
 console.log(Object.values(tinderUser));
 console.log(Object.entries(tinderUser)); 
 
-console.log(tinderUser.hasOwnProperty('isLogged'));// ask yei property hei ya nahi 
+console.log(tinderUser.hasOwnProperty('isLogged'));*/// ask yei property hei ya nahi 
+
+
+const course = {
+    coursename: "js in hindi",
+    price: "999",
+    courseInstrutor: "Rahul"
+}
+
+//course.courseInstrutor
+
+const {courseInstrutor: instructor} = course 
+
+//console.log(courseInstrutor);
+console.log(instructor);
+
+// {
+//     name: "Rahul",
+//     coursename: "js in hindi"
+//     price: "free"
+// }
+
+[
+    {},
+    {},
+    {},
+]
